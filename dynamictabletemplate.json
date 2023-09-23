@@ -1,0 +1,7 @@
+{
+  "Template": {
+    "TemplateName": "DynamicTableTemplate",
+    "SubjectPart": "Daily Stock Updates",
+    "HtmlPart": "<p>Good morning! </p><p>Todays stock market opening actual values vs expected values (based on Grahams equations are: </p><center><table><tr align = center><th> Symbol </th><th>     |    </th><th> Current Value </th><th>     |    </th><th> Intrinsic Value </th><th>     |    </th><th> Overpriced By </th></tr>{{#each obj}}<tr align = center><td>{{s}}</td><td>     |    </td><td>{{c}}</td><td>     |    </td><td>{{v}}</td><td>     |    </td><td>{{d}}</td></tr></table></center><p> Thanks, </p><p> Shruti </p>"
+      }
+}

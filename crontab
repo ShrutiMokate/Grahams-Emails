@@ -1,0 +1,1 @@
+5 16 * * * source /path/to/env/bin/activate && python /path/to/lambda_function.py >> /path/to/output.log
