@@ -19,11 +19,11 @@ To run this project we need to make a couple installations. Run the following co
 3. Install Python Packages:
 You need to install some packaged to run the python code. Use this command to run the installation. 
 
-        pip install -r requirements.txt
+   > pip install -r requirements.txt
 
 4. Create email template: 
 Assuming you are using an AWS EC2 instance linux server, to send a templated email via AWS SES you need to create a template using the AWS CLI. Run the following command to create the template.
 
-     aws ses create-template --cli-input-json  file://dynamictabletemplate.json
+   > aws ses create-template --cli-input-json  file://dynamictabletemplate.json
 
 5. Set up a cronjob. 
