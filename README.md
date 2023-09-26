@@ -34,13 +34,21 @@ To run this project we need to make a couple installations. Run the following co
  
 1. Clone this repository, create environment and activate:
 
-   >  git clone https://github.com/ShrutiMokate/Grahams-Emails.git
+   Clone the repository:
+         
+         > git clone https://github.com/ShrutiMokate/Grahams-Emails.git
 
-   >  cd Grahamas-Emails
+   Get into the cloned directory:
 
-   >  python3.11 -m venv env 
+         >  cd Grahamas-Emails
 
-   >  source env/bin/activate  
+   Create a virtual environment called env:
+
+         >  python3.11 -m venv env 
+
+   Activate the virtual environment:
+
+         >  source env/bin/activate  
 
    Side note: To exit environment use,
 
@@ -50,12 +58,12 @@ To run this project we need to make a couple installations. Run the following co
 3. Install Python Packages:
 Install packages from the requirements.txt file. 
 
-   > pip install -r requirements.txt
+         > pip install -r requirements.txt
 
 4. Create email template: 
 Create a template using the AWS CLI using this command
 
-   > aws ses create-template --cli-input-json  file://dynamictabletemplate.json
+         > aws ses create-template --cli-input-json  file://dynamictabletemplate.json
 
 5. Set up a cronjob:
 Use the instructions in the link below and add a cronjob that resembles the crontab file you installed from this repository. 
