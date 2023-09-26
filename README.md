@@ -42,9 +42,9 @@ To run this project we need to make a couple installations. Run the following co
 
    >  source env/bin/activate  
 
-Side note: To exit environment use,
+   Side note: To exit environment use,
 
-   > deactivate 
+       > deactivate 
 
    
 3. Install Python Packages:
