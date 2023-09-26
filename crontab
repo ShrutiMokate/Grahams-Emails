@@ -1,1 +1,1 @@
-5 16 * * * source /path/to/env/bin/activate && python /path/to/lambda_function.py >> /path/to/output.log
+5 16 * * * source /home/ec2-user/Python-3.11.4/env/bin/activate && python /home/ec2-user/Grahams-Emails/lambda_function.py >> /home/ec2-user/Grahams-Emails/output.txt

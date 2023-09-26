@@ -14,15 +14,19 @@ To run this project we need to make a couple installations. Run the following co
 
 1. Install Python 3.11.4
 
+cd Grahamasdasd
+create env
+get inside env
+pip install
+side note: how to get out of env
    > https://tecadmin.net/how-to-install-python-3-11-on-amazon-linux-2/
 
 2. Clone this repository:
 
-   >  git clone https://github.com/ShrutiMokate/mygithubpage.git
-
-
+   >  git clone https://github.com/ShrutiMokate/Grahams-Emails.git
+   
 3. Install Python Packages:
-You need to install some packaged to run the python code. Use this command to run the installation. 
+Install packages from the requirements.txt file. 
 
    > pip install -r requirements.txt
 
