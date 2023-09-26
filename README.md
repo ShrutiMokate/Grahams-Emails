@@ -9,6 +9,10 @@ symbols, current values, intrinsic values, and difference every day 5 minutes af
 We get the necessary values from the Yahoo Finance website. Our project is made using an AWS EC2 instance linux server,
 AWS SES, python and crontab. 
 
+The daily emails look like this:
+
+![img.png](img.png)
+
 # Instructions
 To run this project we need to make a couple installations. Run the following commands to have the project up and running!
 
