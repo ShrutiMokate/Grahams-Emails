@@ -12,18 +12,40 @@ AWS SES, python and crontab.
 # Instructions
 To run this project we need to make a couple installations. Run the following commands to have the project up and running!
 
+
 1. Install Python 3.11.4
 
-cd Grahamasdasd
-create env
-get inside env
-pip install
-side note: how to get out of env
-   > https://tecadmin.net/how-to-install-python-3-11-on-amazon-linux-2/
+   > sudo yum install gcc openssl-devel bzip2-devel libffi-devel zlib-devel -y 
 
-2. Clone this repository:
+   > wget https://www.python.org/ftp/python/3.11.4/Python-3.11.4.tgz
+
+   > tar xzf Python-3.11.4.tgz 
+
+   > cd Python-3.11.4 
+
+   > sudo ./configure --enable-optimizations
+
+   > sudo make altinstall 
+
+   > cd ..
+
+   > rm Python-3.11.4.tgz 
+   
+ 
+1. Clone this repository, create environment and activate:
 
    >  git clone https://github.com/ShrutiMokate/Grahams-Emails.git
+
+   >  cd Grahamas-Emails
+
+   >  python3.11 -m venv env 
+
+   >  source env/bin/activate  
+
+Side note: To exit environment use,
+
+   > deactivate 
+
    
 3. Install Python Packages:
 Install packages from the requirements.txt file. 
