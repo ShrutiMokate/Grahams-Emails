@@ -19,38 +19,58 @@ To run this project we need to make a couple installations. Run the following co
 
 1. Install Python 3.11.4
 
-   > sudo yum install gcc openssl-devel bzip2-devel libffi-devel zlib-devel -y 
+      Use this link or follow steps below
+   
+      > https://tecadmin.net/how-to-install-python-3-11-on-amazon-linux-2/
+   
+      Prerequisites   
 
-   > wget https://www.python.org/ftp/python/3.11.4/Python-3.11.4.tgz
+         > sudo yum install gcc openssl-devel bzip2-devel libffi-devel zlib-devel -y 
 
-   > tar xzf Python-3.11.4.tgz 
+      Download source code
 
-   > cd Python-3.11.4 
+         > wget https://www.python.org/ftp/python/3.11.4/Python-3.11.4.tgz
 
-   > sudo ./configure --enable-optimizations
+   Extract tarball file
 
-   > sudo make altinstall 
+         > tar xzf Python-3.11.4.tgz 
 
-   > cd ..
+   Get into the extracted folder
 
-   > rm Python-3.11.4.tgz 
+         > cd Python-3.11.4 
+
+   Configure the build process
+
+         > sudo ./configure --enable-optimizations
+
+   Compile and install
+
+         > sudo make altinstall 
+
+   Exit the Python3.11.4 directory
+
+         > cd ..
+   
+   To clear space, remove the .tgz file
+
+         > rm Python-3.11.4.tgz 
    
  
 1. Clone this repository, create environment and activate:
 
-   Clone the repository:
+   Clone the repository
          
          > git clone https://github.com/ShrutiMokate/Grahams-Emails.git
 
-   Get into the cloned directory:
+   Get into the cloned directory
 
          >  cd Grahamas-Emails
 
-   Create a virtual environment called env:
+   Create a virtual environment called env
 
          >  python3.11 -m venv env 
 
-   Activate the virtual environment:
+   Activate the virtual environment
 
          >  source env/bin/activate  
 
